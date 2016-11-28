@@ -11,5 +11,6 @@ Uses Jcrop v00.9.2
 # Dependencies
 
 Jcrop Version 0.9.12+
+
 Wordpress 3.4+
 Woocommerce
