@@ -1,1 +1,32 @@
 TODO list WooCrop
+
+Key features free version 1.0
+	Admin panel
+    Add crop section to single-page.php from woocommerce. 
+    Add image to specific product in shoppping cart.
+    Specify crop size Min/Max 
+    Specify price for crop size
+Key features of paid version 1.0
+	#all features of free version
+	Add dynamic crop size with a dropdown
+	Add dynamic price per crop size
+	Add preview overlay
+	Add crop method round/rectangle
+	Add crop segment to multiple products
+
+
+ ✔ Create header for main plugin file @done (16-11-29 14:38)
+ ✔	Crop preview has white space @done (16-12-02 12:14)
+ 	✔	issue with thumbnail not properly showing | might be because preview has wrong image size @done (16-12-02 12:14)
+ ✔	Setup wordpress on Wamp with WooCommerce and printophout @done (16-12-02 12:14)
+ ☐	Test install plugin
+ ☐ Create actions to hook into woocommerce(to change price and add url to image) in main plugin file with header information
+ ☐	?add-to-cart=8 is not working everytime because of permalinks eg. not working /?page-id=5?add-to-cart=8 | working
+ 	☐	it is possible to add an option in the admin panel for which permalinks are used or just check in the database
+ ☐ Change cart image url to an actual image
+ ☐	Translate plugin to english
+ ☐	Reset preview when new width+height is changed
+
+
+Optional
+	☐	Change from v0.9 to v2.0
