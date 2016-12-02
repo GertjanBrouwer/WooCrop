@@ -104,6 +104,7 @@ Template Name: Printophout
 
 ?>
 
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.Jcrop.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.color.js"></script>
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/loadingoverlay.min.js"></script>
@@ -328,7 +329,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "582";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "290";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/30x30-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/30x30-cm.png";
 			        break;
 			    case 2:
 			        nieuwePrijs = orginelePrijs + 5
@@ -336,7 +337,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "585";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "218";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/40x30-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/40x30-cm.png";
 			        break;
 			    case 3:
 			        nieuwePrijs = orginelePrijs + 10
@@ -344,7 +345,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "776";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "288";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/40x40-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/40x40-cm.png";
 			        break;
 			    case 4:
 			        nieuwePrijs = orginelePrijs + 15
@@ -352,7 +353,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "772";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "231";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/50x40-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/50x40-cm.png";
 			        break;
 			    case 5:
 			        nieuwePrijs = orginelePrijs + 20
@@ -360,7 +361,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "972";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "291";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/50x50-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/50x50-cm.png";
 			        break;
 			    case 6:
 			        nieuwePrijs = orginelePrijs + 20
@@ -368,7 +369,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "774";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "193";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/60x40-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/60x40-cm.png";
 			        break;
 			    case 7:
 			        nieuwePrijs = orginelePrijs + 25
@@ -376,7 +377,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "975";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "243";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/60x50-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/60x50-cm.png";
 			        break;
 			    case 8:
 			        nieuwePrijs = orginelePrijs + 30
@@ -384,7 +385,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1166";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "290";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/60x60-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/60x60-cm.png";
 			        break;
 			    case 9:
 			        nieuwePrijs = orginelePrijs + 30
@@ -392,7 +393,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "972";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "208";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/70x50-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/70x50-cm.png";
 			        break;
 			    case 10:
 			        nieuwePrijs = orginelePrijs + 50
@@ -400,7 +401,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1362";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "291";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/70x70-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/70x70-cm.png";
 			        break;
 			    case 11:
 			        nieuwePrijs = orginelePrijs + 45
@@ -408,7 +409,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1165";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "218";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/80x60-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/80x60-cm.png";
 			        break;
 			    case 12:
 			        nieuwePrijs = orginelePrijs + 60
@@ -416,7 +417,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1566";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "292";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/80x80-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/80x80-cm.png";
 			        break;
 			    case 13:
 			        nieuwePrijs = orginelePrijs + 50
@@ -424,7 +425,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1161";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "194";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/90x60-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/90x60-cm.png";
 			        break;
 			    case 14:
 			        nieuwePrijs = orginelePrijs + 70
@@ -432,7 +433,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1752";
 					document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "291";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/90x90-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/90x90-cm.png";
 			        break;
 			    case 15:
 			        nieuwePrijs = orginelePrijs + 60
@@ -440,7 +441,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1364";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "204";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/100x70-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/100x70-cm.png";
 			        break;
 			    case 16:
 			        nieuwePrijs = orginelePrijs + 80
@@ -448,7 +449,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1943";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "291";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/100x100-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/100x100-cm.png";
 			        break;
 			    case 17:
 			        nieuwePrijs = orginelePrijs + 100
@@ -456,7 +457,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "2142";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "292";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/110x110-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/110x110-cm.png";
 			        break;
 			    case 18:
 			        nieuwePrijs = orginelePrijs + 45
@@ -464,7 +465,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "774";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "96";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/120x40-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/120x40-cm.png";
 			        break;
 			    case 19:
 			        nieuwePrijs = orginelePrijs + 60
@@ -472,7 +473,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1163";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "145";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/120x60-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/120x60-cm.png";
 			        break;
 			    case 20:
 			        nieuwePrijs = orginelePrijs + 65
@@ -480,7 +481,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1564";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "195";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/120x80-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/120x80-cm.png";
 			        break;
 			    case 21:
 			        nieuwePrijs = orginelePrijs + 65
@@ -488,7 +489,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1363";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "146";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/140x70-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/140x70-cm.png";
 			        break;
 			    case 22:
 			        nieuwePrijs = orginelePrijs + 145
@@ -496,7 +497,7 @@ Template Name: Printophout
 			        document.getElementById('min-height').value = "1563";
 			        document.getElementById('thumbnail-width').value = "300";
 			        document.getElementById('thumbnail-height').value = "120";
-			        document.getElementById('achtergrond-link').value = "http://houtismooi.nl/houtismooi.nl/wp-content/themes/vantage/poh-img/200x80-cm.png";
+			        document.getElementById('achtergrond-link').value = "http://localhost/wordpress/wp-content/themes/twentysixteen/poh-img/200x80-cm.png";
 			        break;
 			    default:
 			         document.getElementById('select-error-label').innerHTML = "selecteer een optie aub.";
