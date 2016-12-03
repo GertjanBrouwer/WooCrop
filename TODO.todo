@@ -1,32 +1,64 @@
 TODO list WooCrop
 
 Key features free version 1.0
-	Admin panel
+  Admin panel
     Add crop section to single-page.php from woocommerce. 
     Add image to specific product in shoppping cart.
     Specify crop size Min/Max 
     Specify price for crop size
 Key features of paid version 1.0
-	#all features of free version
-	Add dynamic crop size with a dropdown
-	Add dynamic price per crop size
-	Add preview overlay
-	Add crop method round/rectangle
-	Add crop segment to multiple products
+  #all features of free version
+  Add dynamic crop size with a dropdown
+  Add dynamic price per crop size
+  Add preview overlay
+  Add crop method round/rectangle
+  Add crop segment to multiple products
 
+WooCropPage.php is a seperate page not integrated into woocommerce template files.
+woocrop.php is the main plugin file which will hook into the woocommerce template.
+  
 
+WooCropPage.php
  ✔ Create header for main plugin file @done (16-11-29 14:38)
- ✔	Crop preview has white space @done (16-12-02 12:14)
- 	✔	issue with thumbnail not properly showing | might be because preview has wrong image size @done (16-12-02 12:14)
- ✔	Setup wordpress on Wamp with WooCommerce and printophout @done (16-12-02 12:14)
- ☐	Test install plugin
+ ✔  Setup wordpress on Wamp with WooCommerce and printophout @done (16-12-02 12:14)
+ ✔  Crop preview has white space @done (16-12-02 12:14)
+   ✔  issue with thumbnail not properly showing | might be because preview has wrong image size @done (16-12-02 12:14)
+
+woocrop.php
+ ✔  Test install plugin @done (16-12-02 12:30)
+ ☐  Create activiation hooks in main template file.
+ ☐  Change crop area location based on adminpanel settings
+ ☐  Display on correct product page based on adminpanel settings
  ☐ Create actions to hook into woocommerce(to change price and add url to image) in main plugin file with header information
- ☐	?add-to-cart=8 is not working everytime because of permalinks eg. not working /?page-id=5?add-to-cart=8 | working
- 	☐	it is possible to add an option in the admin panel for which permalinks are used or just check in the database
+ ☐  ?add-to-cart=8 is not working everytime because of permalinks eg. not working /?page-id=5?add-to-cart=8 | working
+   ☐  it is possible to add an option in the admin panel for which permalinks are used or just check in the database
  ☐ Change cart image url to an actual image
- ☐	Translate plugin to english
- ☐	Reset preview when new width+height is changed
+ ☐  Translate plugin to english
+ ☐  Reset preview when new width+height is changed
+
+Information needed for the free version to make the plugin work
+  - Crop dimensions --user
+    -min-width(has default 100px) --user
+    -min-height(has default 100px) --user
+    -thumbnail-width(has default 300px) --user
+  - Permalinks --wordpress
+  - Product id(s) --user
+  - Product price --user
+
+Optional 
+  ☐  Change from Jcrop v0.9 to v2.0
 
 
-Optional
-	☐	Change from v0.9 to v2.0
+Thinking process
+  If user does not select a min-widht or min-height for their product the crop selection can be as small as 1x1px 
+  If they don't select min-dimensions and no aspect-ratio the crop region can be in any form.
+  If they do select min-dimension, aspect-ratio can be calculated
+
+  Thumbnail width is always 300px the height will be dynamically calculated based on the min-dimension
+
+  This means you need to set min-dimension but they can also be a default value eg. 100x100px for min-dimension
+  That will result in this calculation
+    Min-height: 100px
+    Min-width: 100px
+    Thumbnail-width: 300px
+    Thumbnail-height: min-width / (min-height / thumbnail-width) = 300px
