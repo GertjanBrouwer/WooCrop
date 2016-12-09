@@ -26,14 +26,15 @@ WooCropPage.php
 
 woocrop.php
  ✔  Test install plugin @done (16-12-02 12:30)
- ☐  Create activiation hooks in main template file.
+ ☐  Add activation hooks in include folder file
+ ☐  Internationalize plugin
+ ☐  Add error logging
  ☐  Change crop area location based on adminpanel settings
  ☐  Display on correct product page based on adminpanel settings
- ☐ Create actions to hook into woocommerce(to change price and add url to image) in main plugin file with header information
+ ☐  Create actions to hook into woocommerce(to change price and add url to image) in main plugin file with header information
  ☐  ?add-to-cart=8 is not working everytime because of permalinks eg. not working /?page-id=5?add-to-cart=8 | working
-   ☐  it is possible to add an option in the admin panel for which permalinks are used or just check in the database
- ☐ Change cart image url to an actual image
- ☐  Translate plugin to english
+    ☐ it is possible to add an option in the admin panel for which permalinks are used or just check in the database
+ ☐  Change cart image url to an actual image
  ☐  Reset preview when new width+height is changed
 
 Information needed for the free version to make the plugin work
@@ -58,7 +59,7 @@ Thinking process
 
   This means you need to set min-dimension but they can also be a default value eg. 100x100px for min-dimension
   That will result in this calculation
-    Min-height: 100px
-    Min-width: 100px
-    Thumbnail-width: 300px
-    Thumbnail-height: min-width / (min-height / thumbnail-width) = 300px
+     - Min-height: 100px
+     - Min-width: 100px
+     - Thumbnail-width: 300px
+     - Thumbnail-height: min-width / (min-height / thumbnail-width) = 300px
