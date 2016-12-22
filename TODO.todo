@@ -17,6 +17,8 @@ Key features of paid version 1.0
 WooCropPage.php is a seperate page not integrated into woocommerce template files.
 woocrop.php is the main plugin file which will hook into the woocommerce template.
   
+10-12-16
+ ☐ Checkout mico crop, mico ajax uploader and mico image cropper
 
 WooCropPage.php
  ✔ Create header for main plugin file @done (16-11-29 14:38)
@@ -26,19 +28,33 @@ WooCropPage.php
 
 woocrop.php
  ✔  Test install plugin @done (16-12-02 12:30)
- ☐  Add activation hooks in include folder file
- ☐  Internationalize plugin
- ☐  Add error logging
- ☐  Change crop area location based on adminpanel settings
- ☐  Display on correct product page based on adminpanel settings
- ☐  Create actions to hook into woocommerce(to change price and add url to image) in main plugin file with header information
+ ✔  Add activation hooks in include folder file(Activate, Deactivate and install) @done (16-12-09 13:47)
+ ✔  Add error logging @done (16-12-09 13:54)
+ ☐ Change crop area display based on products set in admin panel
+ ☐ Come up with a system where there is no cookie needed to store price. 
+ ☐ Create uploader with JS+HTML5 where you don't need to upload with php
+ ☐ Internationalize plugin
+ 
+Admin panel
+ ✔ Add section under woocommerce>settings>products>woocrop @done (16-12-09 14:18)
+ ☐ Add options to section
+   ✔ Product pages to display woocrop on. @done (16-12-10 14:41)
+   ☐ Minimal crop dimensions per product
+   ☐ Price per product per crop dimension
+
+Jcrop
  ☐  ?add-to-cart=8 is not working everytime because of permalinks eg. not working /?page-id=5?add-to-cart=8 | working
     ☐ it is possible to add an option in the admin panel for which permalinks are used or just check in the database
+ ☐  Change crop area location based on adminpanel settings
+ ☐  Display on correct product page based on adminpanel settings
  ☐  Change cart image url to an actual image
- ☐  Reset preview when new width+height is changed
+ ☐  Reset preview when user selects different dimensions(Dropdown)
+ ☐  Create actions to hook into woocommerce(to change price and add url to image) in main plugin file with header information
+ 
+ 
 
-Information needed for the free version to make the plugin work
-  - Crop dimensions --user
+Information needed to make the plugin work
+  - Crop dimensions --user (for every product)
     -min-width(has default 100px) --user
     -min-height(has default 100px) --user
     -thumbnail-width(has default 300px) --user

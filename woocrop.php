@@ -43,7 +43,7 @@
     register_uninstall_hook(__FILE__, 'woocrop_uninstall' );
 
     //Create woocommerce settings tab.
-    require_once(WOOCROP_PATH. 'includes/class_woocrop_woocommerce_settings_tab.php');
+    require_once(WOOCROP_PATH. 'admin/class_woocrop_woocommerce_settings_tab.php');
 	
     //Error logging
     function log_me($message) {
